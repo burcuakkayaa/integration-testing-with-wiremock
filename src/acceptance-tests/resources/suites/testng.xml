@@ -6,7 +6,7 @@
     </listeners>
     <test name="api.WiremockTest">
     <classes>
-        <class name="api.WiremockTest"></class>
+        <class name="api.endpoints.users.PostNewUserTests"></class>
     </classes>
     </test>
 </suite>
