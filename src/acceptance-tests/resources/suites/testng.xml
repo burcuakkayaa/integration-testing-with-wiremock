@@ -3,6 +3,10 @@
 <suite name="integration testing with wiremock">
     <listeners>
         <listener class-name="api.core.tests.TestListener"/>
-        <listener class-name="api.core.tests.BaseTest"></listener>
     </listeners>
+    <test name="api.WiremockTest">
+    <classes>
+        <class name="api.WiremockTest"></class>
+    </classes>
+    </test>
 </suite>
