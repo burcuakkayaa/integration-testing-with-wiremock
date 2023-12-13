@@ -25,6 +25,8 @@ open class ApiBaseTest {
 
         WireMock.removeAllMappings()
         WireMock.resetAllRequests()
+        WireMock.saveAllMappings()
+
     }
 
 }

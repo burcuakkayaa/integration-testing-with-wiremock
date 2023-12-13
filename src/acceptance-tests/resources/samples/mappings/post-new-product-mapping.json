@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/products"
+  },
+  "response": {
+    "status": 201,
+    "body": "{\n  \"id\": 31,\n  \"title\": \"test product\",\n  \"price\": 13.5,\n  \"description\": \"lorem ipsum set\",\n  \"image\": \"https://i.pravatar.cc\",\n  \"category\": \"electronic\"\n}\n",
+    "headers": {
+      "Content-Type": "application/json; charset=UTF-8"
+    }
+  }
+}
