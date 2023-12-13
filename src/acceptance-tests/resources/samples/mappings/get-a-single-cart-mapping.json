@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/carts/5"
+  },
+  "response": {
+    "status": 200,
+    "body": "{\"id\":5,\"userId\":3,\"date\":\"2020-03-01T00:00:00.000Z\",\"products\":[{\"productId\":7,\"quantity\":1},{\"productId\":8,\"quantity\":1}],\"__v\":0}",
+    "headers": {
+      "Content-Type": "application/json; charset=UTF-8"
+    }
+  }
+}

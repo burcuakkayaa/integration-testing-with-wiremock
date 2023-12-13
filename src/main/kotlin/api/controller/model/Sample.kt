@@ -12,5 +12,6 @@ enum class Sample(val path: String)  {
 
     //Mapping
     POST_NEW_PRODUCT_MAPPING("mappings/post-new-product-mapping.json"),
+    GET_A_SINGLE_CART_MAPPING("mappings/get-a-single-cart-mapping.json"),
 
 }
